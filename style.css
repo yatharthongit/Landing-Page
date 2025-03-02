@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    font-family: Roboto;
 }
 
 .head{
@@ -10,13 +11,12 @@ body{
 
 
 .one{
-    background-color: #1F2937;
-    font-family: Roboto;
+    background-color: #1F2937;   
     color: white;   
     padding: 20px;
     display: flex;
-    justify-content: space-around;
-    flex: 1 1 0;
+    justify-content: center;
+    gap: 100px;
 }
 
 .right{
@@ -68,7 +68,7 @@ flex-wrap: wrap;
 }
 
 button{
-    background-color: rgb(54, 54, 248);
+    background-color: #3882F6;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -76,4 +76,70 @@ button{
     border-radius: 8px;
     border: none;
     margin-top: 15px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.two ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block{
+    max-width: 180px;
+}
+
+.block li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.block img{
+    border: solid 4px #3882F6;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.two ul{
+    gap: 55px;
+}
+
+.three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding: 150px 533px;
+    gap: 15px;
+    align-items: end;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 230;
+}
+
+.cred{
+    font-weight: bold;
+    font-size: 24px;
 }
