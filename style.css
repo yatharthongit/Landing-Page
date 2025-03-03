@@ -19,10 +19,6 @@ body{
     gap: 40px;
 }
 
-.cont{
-    flex-wrap: wrap;
-}
-
 
 .one{
     background-color: #1F2937;   
@@ -66,8 +62,8 @@ h1{
 font-size: 48px;
 color: #F9FAF8;
 font-weight: 900;
-max-width: 500px;
-flex-wrap: wrap;
+line-height: 1em;
+margin-bottom: 8px;
 }
 
 .subhero{
@@ -75,6 +71,7 @@ flex-wrap: wrap;
     color: #E5E7EB;
     max-width: 450px;
     flex-wrap: wrap;
+    margin-bottom: 8px;
 }
 
 .onee{
